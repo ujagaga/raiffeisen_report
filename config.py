@@ -1,0 +1,4 @@
+START_DATE = "27.05.2022"
+END_DATE = "28.09.2022"
+
+OUT_FILE_NAME = "izvod"
