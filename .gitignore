@@ -1,2 +1,4 @@
 .idea
 .venv
+izvod*.csv
+token.json
