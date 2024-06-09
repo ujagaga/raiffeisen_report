@@ -216,6 +216,7 @@ if __name__ == "__main__":
         for item in message_id_list:
             message_date, data = get_mail_attachment(item["id"])
             if data:
+                print(f"Processed email from date {message_date}")
                 shape_data(data, out_file_name)
 
     input("\nPress Enter to continue...")
