@@ -6,12 +6,9 @@ Iz njih izvlaci podatke i pakuje ih u jedan CSV fajl koji moze nakon toga da se 
 # Priprema okruzenja #
 
 Potrebno je instalirati Python verziju 3.10.7 ili vecu. Prilikom instalacije obavezno instalirati PIP. 
-Na Windowsu bi trebalo da je to "default" opcija.
+Na Windowsu bi trebalo da je to "default" opcija. Najlakse je instalirati sa Windows Store-a. 
 
-        https://www.python.org/downloads/windows/
-
-
-Nakon ovoga otvoriti python konzolu iz start menija i pokrenuti komandu:
+Nakon ovoga otvoriti konzolu iz start menija (ili PowerShell) i pokrenuti komandu:
 
         pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
