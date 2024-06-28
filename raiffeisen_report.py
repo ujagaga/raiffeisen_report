@@ -138,7 +138,7 @@ def shape_data(data_dict, file_name):
     """
     global file_header
 
-    out_file = open(file_name, "a")
+    out_file = open(file_name, "a", encoding="utf-8")
     try:
         header_data = data_dict["Zaglavlje"]
         for data_item in data_dict["Stavke"]:
